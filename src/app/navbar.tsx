@@ -8,10 +8,13 @@ const Navbar = () => {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/user/login">Login</Link>
+        <Link href="/fruits">Fruits</Link>
       </li>
       <li>
-        <Link href="/user/signup">Sign Up</Link>
+        <Link href="/kernals">Kernals</Link>
+      </li>
+      <li>
+        <Link href="/apex/wraith">Wraith</Link>
       </li>
     </ul>
   );

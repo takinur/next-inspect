@@ -3,18 +3,26 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <ul className="justify-between text-green-500">
+    <ul className="flex justify-start gap-4 pl-10 text-green-500 ">
       <li>
-        <Link href="/">Home</Link>
+        <Link className="hover:text-green-900" href="/">
+          Home
+        </Link>
       </li>
       <li>
-        <Link href="/fruits">Fruits</Link>
+        <Link className="hover:text-green-900" href="/fruits">
+          Fruits
+        </Link>
       </li>
       <li>
-        <Link href="/kernals">Kernals</Link>
+        <Link className="hover:text-green-900" href="/kernals">
+          Kernals
+        </Link>
       </li>
       <li>
-        <Link href="/apex/wraith">Wraith</Link>
+        <Link className="hover:text-green-900" href="/apex/wraith">
+          Wraith
+        </Link>
       </li>
     </ul>
   );

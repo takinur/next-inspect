@@ -5,5 +5,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="h-screen bg-green-600">{children}</div>;
+  return <div className=" bg-slate-600">{children}</div>;
 }

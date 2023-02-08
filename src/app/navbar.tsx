@@ -1,4 +1,4 @@
-"use client"; // This is a client-side only file (no server-side rendering)
+// "use client"; // This is a client-side only file (no server-side rendering)
 import Link from "next/link";
 
 const Navbar = () => {

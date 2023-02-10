@@ -10,8 +10,8 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link className="hover:text-green-900" href="/fruits">
-          Fruits
+        <Link className="hover:text-green-900" href="/apex/pathfinder">
+          Pathfinder
         </Link>
       </li>
       <li>
